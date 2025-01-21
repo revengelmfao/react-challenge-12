@@ -26,19 +26,44 @@
         </ul>
       </nav>
     </div>
-    <div class="about-me">
-      <img class="icons" src="./src/assets/imgs/aboutme-icon.svg" alt="about-me icon" />
-      <h2>Contact me</h2> 
-      <p class="aboutme-desc">Feel free to reach out to me with any questions or inquiries. I'm always happy to connect with other developers and tech enthusiasts!</p>
+    <div class="container">
+      <div class="about-me">
+        <img class="icons" src="./src/assets/imgs/aboutme-icon.svg" alt="about-me icon" />
+        <h2>Contact me</h2> 
+        <p class="aboutme-desc">Feel free to reach out to me with any questions or inquiries. I'm always happy to connect with other developers and tech enthusiasts!</p>
+      </div>
+
+      <div class="row input-container">
+          <div class="col-xs-12">
+            <div class="styled-input wide">
+              <input type="text" required />
+              <label>Name</label> 
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <div class="styled-input">
+              <input type="text" required />
+              <label>Email</label> 
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <div class="styled-input" style="float:right;">
+              <input type="text" required />
+              <label>Phone Number</label> 
+            </div>
+          </div>
+          <div class="col-xs-12">
+            <div class="styled-input wide">
+              <textarea required></textarea>
+              <label>Message</label>
+            </div>
+          </div>
+          <div class="col-xs-12">
+            <div class="btn-lrg submit-btn">Send Message</div>
+          </div>
+      </div>
     </div>
-    <div class="form-container">
-    <form>
-      <input type="text" id="name" name="name" placeholder="Name" />
-      <input type="email" id="email" name="email" placeholder="Email" />
-      <textarea id="message" name="message" placeholder="Message"></textarea>
-      <button type="submit">Submit</button>
-    </form>
-    </div>
+    
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
@@ -46,7 +71,7 @@
       <a href="https://github.com/revengelmfao?tab=repositories" class="imgs">
         <img src="../assets/github-icon.svg" className="logo" alt="GitHub Logo" />
       </a>
-      <a href="https://react.dev" class="imgs">
+      <a href="https://www.linkedin.com/in/bradley-santiago-4011b1333/" class="imgs">
         <img src="../assets/linkedin-icon.svg" className="logo react" alt="LinkedIn Logo" />
       </a>
   </footer>
