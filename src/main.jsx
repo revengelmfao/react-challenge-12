@@ -1,11 +1,10 @@
 import React from 'react';
-import { createRoot } from 'react-dom/client';
+import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import App from './App.jsx';
-import Resume from '/components/pages/resume.jsx'; // Import your Resume component
+import Resume from './components/pages/resume.jsx'; // Import your Resume component
 
-const root = createRoot(document.getElementById('root'));
-root.render(
+ReactDOM.render(
   <Router>
     <Routes>
       <Route path="/" element={<App />} />
