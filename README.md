@@ -1,8 +1,39 @@
-# React + Vite
+# react-challenge-12
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![License](https://img.shields.io/badge/License-MIT-blue.svg)
 
-Currently, two official plugins are available:
+## Description
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+a beginner portfolio website with small react implementations
+
+
+## Table of Contents
+
+* [Installation](#installation)
+* [Usage](#usage)
+* [Contributing](#contributing)
+* [Tests](#tests)
+
+* [License](#license)
+
+* [Questions](#questions)
+
+
+## Usage
+
+personal portfolio
+## Contributing
+
+Bradley Santiago
+
+## Tests
+
+n/a
+
+## License
+
+This project is licensed under the MIT license.
+
+## Questions
+
+If you have any questions, please feel free to contact me at [janedoe@mail.com](mailto:janedoe@mail.com). You can also find more of my work at [https://github.com/revengelmfao](https://github.com/revengelmfao).
