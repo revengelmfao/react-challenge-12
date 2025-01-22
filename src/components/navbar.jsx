@@ -1,7 +1,7 @@
-import { Link } from "react-router-dom"
-import React from "react"
+import { Link } from "react-router-dom";
+import React from "react";
 
-export const Navbar = () => {
+const Navbar = () => {
     return (
         <nav>
             <Link to="/">Home</Link>            
@@ -21,4 +21,6 @@ export const Navbar = () => {
             </ul>
         </nav>
     );
-};  
+};
+
+export default Navbar;
